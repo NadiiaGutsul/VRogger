@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &685585039279837041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3692508477466336307}
+  - component: {fileID: 4715436391906171948}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3692508477466336307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685585039279837041}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.12, y: 0.049, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2528376949740498395}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4715436391906171948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685585039279837041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac826fd350172fc458ca3d124e3d7d5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovingObjectSpawner
+  minSpeed: 0.2
+  maxSpeed: 0.4
+  minDistance: 2
+  maxDistance: 3
+  objectPrefab: {fileID: 6555655629328663416, guid: 3037f9274167bc54aa0695253430b7d9, type: 3}
+  tile: {fileID: 4436990426225780963}
+--- !u!1001 &7951683509310527296
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 493217131221812037, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: 'SnapCubeWater '
+      objectReference: {fileID: 0}
+    - target: {fileID: 493217131221812037, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175557651560397544, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: 'SnapCubeWater '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175557651560397544, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1884345883390292809, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: SnapCubeWater
+      objectReference: {fileID: 0}
+    - target: {fileID: 2589735813055969557, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: SnapCubeWater
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612154617973383046, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: SnapCubeWater
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798960069025370632, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: SnapCubeWater
+      objectReference: {fileID: 0}
+    - target: {fileID: 2824674178379978876, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: 'SnapCubeWater '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2824674178379978876, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 3426673603315963090, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: 'SnapCubeWater '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3426673603315963090, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 3482511374493260205, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: SnapCubeWater
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986511602810555856, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: SnapCubeWater
+      objectReference: {fileID: 0}
+    - target: {fileID: 4321381692583564653, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: 'SnapCubeWater '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4321381692583564653, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803750281826910270, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: WaterTile_Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029059410588625524, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5223085802944399906, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.057
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569993367940004507, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569993367940004507, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569993367940004507, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569993367940004507, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569993367940004507, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569993367940004507, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569993367940004507, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569993367940004507, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569993367940004507, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569993367940004507, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6124074328710579318, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: 'SnapCubeWater '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6124074328710579318, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328867216384853473, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: SnapCubeWater
+      objectReference: {fileID: 0}
+    - target: {fileID: 6812285984137503564, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: 'SnapCubeWater '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6812285984137503564, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872703516332099479, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: 'SnapCubeWater '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872703516332099479, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204610956006247489, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: SnapCubeWater
+      objectReference: {fileID: 0}
+    - target: {fileID: 7483665514486561711, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: 'SnapCubeWater '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7705731326175147760, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: 'SnapCubeWater '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7705731326175147760, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 8043082001679950658, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: SnapCubeWater
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182410518452852106, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_Name
+      value: 'SnapCubeWater '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182410518452852106, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5569993367940004507, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 3692508477466336307}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+--- !u!4 &2528376949740498395 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5569993367940004507, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+  m_PrefabInstance: {fileID: 7951683509310527296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4436990426225780963 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6037450565879218083, guid: d9e76bd9f7be31346b3f158609e15c8c, type: 3}
+  m_PrefabInstance: {fileID: 7951683509310527296}
+  m_PrefabAsset: {fileID: 0}
